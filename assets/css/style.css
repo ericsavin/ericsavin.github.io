@@ -406,3 +406,44 @@ footer {
 
 
 }
+
+.profile {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+.portrait {
+
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid #ddd;
+
+}
+
+
+.bio {
+
+    max-width: 600px;
+
+}
+
+
+@media(max-width:700px) {
+
+    .profile {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+}
