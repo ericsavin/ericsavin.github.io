@@ -418,8 +418,8 @@ footer {
 
 .portrait {
 
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
 
     object-fit: cover;
 
@@ -439,18 +439,17 @@ footer {
 
 @media(max-width:700px) {
 
+    .portrait {
+
+        width: 100px;
+        height: 100px;
+
+    }
+
     .profile {
 
         flex-direction: column;
         text-align: center;
-
-    }
-
-
-    .portrait {
-
-        width: 10px;
-        height: 10px;
 
     }
 
