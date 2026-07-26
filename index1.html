@@ -1,0 +1,251 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eric Savin | Personal Website</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    color:#222;
+    line-height:1.7;
+    background:#fafafa;
+}
+
+header{
+    background:#0f4c81;
+    color:white;
+    padding:80px 20px;
+}
+
+.container{
+    width:min(1100px,90%);
+    margin:auto;
+}
+
+h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#0f4c81;
+}
+
+.subtitle{
+    font-size:1.25rem;
+    margin-top:10px;
+    opacity:.95;
+}
+
+nav{
+    background:white;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav li{
+    margin:18px;
+}
+
+nav a{
+    color:#0f4c81;
+    text-decoration:none;
+    font-weight:600;
+}
+
+section{
+    padding:70px 0;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+    background:white;
+    margin-top:40px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 22px;
+    background:#0f4c81;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<h1>Eric Savin</h1>
+
+<p class="subtitle">
+Associate Professor • CentraleSupélec<br>
+Research Scientist • ONERA
+</p>
+
+<a class="button" href="#about">Learn more</a>
+
+</div>
+
+</header>
+
+<nav>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section id="about">
+
+<div class="container">
+
+<h2>About</h2>
+
+<p>
+Welcome to my personal academic website.
+
+I am affiliated with <strong>CentraleSupélec</strong> and
+<strong>ONERA – The French Aerospace Lab</strong>.
+
+My research focuses on applied mathematics, scientific computing,
+and engineering applications. This website provides information
+about my research activities, publications, teaching, and ongoing projects.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>Research & Academic Activities</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Publications</h3>
+
+<p>
+Journal papers, conference proceedings,
+book chapters and preprints.
+</p>
+
+<p><a href="publications.html">View publications →</a></p>
+
+</div>
+
+<div class="card">
+
+<h3>Teaching</h3>
+
+<p>
+Courses, lecture notes,
+supervision and educational activities.
+</p>
+
+<p><a href="teaching.html">Teaching activities →</a></p>
+
+</div>
+
+<div class="card">
+
+<h3>Projects</h3>
+
+<p>
+Current and past research projects,
+collaborations and funded programs.
+</p>
+
+<p><a href="projects.html">Research projects →</a></p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<h2>Contact</h2>
+
+<p>
+Eric Savin<br>
+CentraleSupélec<br>
+ONERA – The French Aerospace Lab
+</p>
+
+<p>
+Email: your.email@centralesupelec.fr
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Eric Savin
+
+</footer>
+
+</body>
+</html>
+```
