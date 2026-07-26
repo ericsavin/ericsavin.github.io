@@ -419,7 +419,7 @@ footer {
 .portrait {
 
     width: 10px;
-    height: auto;
+    height: 10px;
 
     object-fit: cover;
 
@@ -450,7 +450,7 @@ footer {
     .portrait {
 
         width: 10px;
-        height: auto;
+        height: 10px;
 
     }
 
