@@ -407,7 +407,7 @@ footer {
 
 }
 
-.profile {
+.header {
 
     display: flex;
     align-items: center;
@@ -439,7 +439,7 @@ footer {
 
 @media(max-width:700px) {
 
-    .profile {
+    .header {
 
         flex-direction: column;
         text-align: center;
