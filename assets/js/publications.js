@@ -822,20 +822,21 @@ function renderLinks(pub) {
     }
 
 
-
-    if(pub.url) {
-
-
-        html +=
-        `
-        <a href="${pub.url}"
-           target="_blank">
-           Link
-        </a>
-        `;
-
-    }
-
+/*
+ *
+ *   if(pub.url) {
+ *
+ *
+ *       html +=
+ *       `
+ *       <a href="${pub.url}"
+ *          target="_blank">
+ *          Link
+ *       </a>
+ *       `;
+ *
+ *   }
+ */
 
 
     if(pub.pdf) {
