@@ -418,8 +418,8 @@ footer {
 
 .portrait {
 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
 
     object-fit: cover;
 
@@ -441,8 +441,8 @@ footer {
 
     .portrait {
 
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: auto;
 
     }
 
