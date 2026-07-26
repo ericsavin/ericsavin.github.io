@@ -823,7 +823,6 @@ function renderLinks(pub) {
 
 
 /*
- *
  *   if(pub.url) {
  *
  *
