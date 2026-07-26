@@ -407,7 +407,7 @@ footer {
 
 }
 
-.header {
+.profile {
 
     display: flex;
     align-items: center;
@@ -418,31 +418,39 @@ footer {
 
 .portrait {
 
-    width: 10px;
-    height: auto;
+    width: 130px;
+    height: 130px;
 
     object-fit: cover;
 
     border-radius: 50%;
 
-    border: 3px solid #ddd;
+    border: 2px solid #ddd;
 
 }
 
 
-.subtitle {
+.profile-text {
 
-    max-width: 600px;
+    flex: 1;
 
 }
 
 
 @media(max-width:700px) {
 
-    .header {
+    .profile {
 
         flex-direction: column;
         text-align: center;
+
+    }
+
+
+    .portrait {
+
+        width: 110px;
+        height: 110px;
 
     }
 
