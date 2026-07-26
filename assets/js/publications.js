@@ -775,7 +775,7 @@ function formatAuthors(authors) {
     escaped =
         escaped.replace(
             /Eric Savin/gi,
-            "<strong>Eric Savin</strong>"
+            "É. S."
         );
 
 
@@ -783,7 +783,7 @@ function formatAuthors(authors) {
     escaped =
         escaped.replace(
             /Éric Savin/gi,
-            "<strong>Éric Savin</strong>"
+            "É. S."
         );
 
 
